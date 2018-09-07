@@ -23,18 +23,16 @@ done
 4. Repository And DI
 didn't do 
 
-5. Use any charts plugin (D3JS, HIghcharts, Jquery Charts etc..)
+5. Use any charts plugin 
 done 
 
-6. Bundling - Bundle and minify all js & css files
-didn't get into that 
+6.DB to be created in SQL Server (No local .mdf files)
+done
 
 
 7. Application should be hosted in IIS (not accepted if running in IISExpress)
 done
 
-8. DB to be created in SQL Server (No local .mdf files)
-done
 
 
 here is the view 
