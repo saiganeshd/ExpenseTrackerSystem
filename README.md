@@ -1,5 +1,15 @@
 # ExpenseTrackerSystem
 
+Application Summary
+Technologies used in this application:
+
+Asp.net
+MVC5
+C#
+MySql
+JS
+jQuery
+
 1. Authentication Module - Ability to resister and login the user to our app 
 pending 
 adding  login using Google account
