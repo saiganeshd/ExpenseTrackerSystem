@@ -6,6 +6,8 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using ExpenseTrackerSystem.Gateway;
+using ExpenseTrackerSystem.Interface;
 using ExpenseTrackerSystem.Models;
 using Microsoft.AspNet.Identity;
 
@@ -15,13 +17,21 @@ namespace ExpenseTrackerSystem.Controllers
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
+        private IExpenseRepo _expeseRepo; 
+
+        public ExpensesController()
+        {
+            _expeseRepo = new ExpenseRepo();
+        }
+
         // GET: Expenses
         public ActionResult Index()
         {
-            var userid = User.Identity.GetUserId();
+            //var userid = User.Identity.GetUserId();
 
-            var expenses = db.Expenses.Where(u => u.ApplicationUserId == userid).Include(e => e.Category);
-            return View(expenses.ToList());
+            //var expenses = db.Expenses.Where(u => u.ApplicationUserId == userid).Include(e => e.Category);
+            //return View(expenses.ToList());
+            return View(_expeseRepo.AllExpenses());
         }
 
         // GET: Expenses/Details/5

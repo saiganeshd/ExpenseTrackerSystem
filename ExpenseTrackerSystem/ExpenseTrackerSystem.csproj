@@ -198,9 +198,11 @@
     <Compile Include="Controllers\ExpensesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Gateway\ExpenseRepo.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Interface\IExpenseRepo.cs" />
     <Compile Include="Migrations\201809070330493_intialmodel.cs" />
     <Compile Include="Migrations\201809070330493_intialmodel.Designer.cs">
       <DependentUpon>201809070330493_intialmodel.cs</DependentUpon>
@@ -212,6 +214,22 @@
     <Compile Include="Migrations\201809070651220_addedandpopulatednewexpensecategories.cs" />
     <Compile Include="Migrations\201809070651220_addedandpopulatednewexpensecategories.Designer.cs">
       <DependentUpon>201809070651220_addedandpopulatednewexpensecategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809071606214_Dependencyinjectionadded.cs" />
+    <Compile Include="Migrations\201809071606214_Dependencyinjectionadded.Designer.cs">
+      <DependentUpon>201809071606214_Dependencyinjectionadded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809071625386_Dateadded.cs" />
+    <Compile Include="Migrations\201809071625386_Dateadded.Designer.cs">
+      <DependentUpon>201809071625386_Dateadded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809071629590_Dateaddedpicker.cs" />
+    <Compile Include="Migrations\201809071629590_Dateaddedpicker.Designer.cs">
+      <DependentUpon>201809071629590_Dateaddedpicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809071639258_Dateaddedpickermonth.cs" />
+    <Compile Include="Migrations\201809071639258_Dateaddedpickermonth.Designer.cs">
+      <DependentUpon>201809071639258_Dateaddedpickermonth.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -317,6 +335,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809070651220_addedandpopulatednewexpensecategories.resx">
       <DependentUpon>201809070651220_addedandpopulatednewexpensecategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809071606214_Dependencyinjectionadded.resx">
+      <DependentUpon>201809071606214_Dependencyinjectionadded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809071625386_Dateadded.resx">
+      <DependentUpon>201809071625386_Dateadded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809071629590_Dateaddedpicker.resx">
+      <DependentUpon>201809071629590_Dateaddedpicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809071639258_Dateaddedpickermonth.resx">
+      <DependentUpon>201809071639258_Dateaddedpickermonth.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

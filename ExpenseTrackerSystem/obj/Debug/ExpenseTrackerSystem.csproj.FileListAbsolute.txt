@@ -113,7 +113,6 @@ C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\bin\Micros
 C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\bin\Microsoft.AI.Web.xml
 C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\obj\Debug\ExpenseTrackerSystem.csprojAssemblyReference.cache
 C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\obj\Debug\ExpenseTrackerSystem.csproj.CoreCompileInputs.cache
 C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\obj\Debug\ExpenseTrackerSystem.csproj.CopyComplete
 C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\obj\Debug\ExpenseTrackerSystem.dll
@@ -122,3 +121,7 @@ C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\obj\Debug\
 C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\obj\Debug\ExpenseTrackerSystem.csproj.GenerateResource.cache
 C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\obj\Debug\ExpenseTrackerSystem.Migrations.addedexpenseandcategory.resources
 C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\obj\Debug\ExpenseTrackerSystem.Migrations.addedandpopulatednewexpensecategories.resources
+C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\obj\Debug\ExpenseTrackerSystem.Migrations.Dependencyinjectionadded.resources
+C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\obj\Debug\ExpenseTrackerSystem.Migrations.Dateadded.resources
+C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\obj\Debug\ExpenseTrackerSystem.Migrations.Dateaddedpicker.resources
+C:\Users\saiga\source\repos\ExpenseTrackerSystem\ExpenseTrackerSystem\obj\Debug\ExpenseTrackerSystem.Migrations.Dateaddedpickermonth.resources
