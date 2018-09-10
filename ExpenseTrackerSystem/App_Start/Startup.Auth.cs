@@ -58,11 +58,11 @@ namespace ExpenseTrackerSystem
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "713964909919-t1s0btq88836u1naa15njbjn3408toaj.apps.googleusercontent.com",
+                ClientSecret = "qy0xYUAwiAQQ_pwb_ZqRrPqj"
+            });
         }
     }
 }
